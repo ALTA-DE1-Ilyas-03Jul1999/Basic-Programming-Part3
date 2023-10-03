@@ -1,5 +1,5 @@
 def palindrome(input_string):
-    return 'error response'
+    return input_string == input_string [: : -1]
 
 
 if __name__ == '__main__':
